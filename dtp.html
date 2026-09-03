@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Eskrim</title>
+
+<link rel="stylesheet" href="dtp.css">
+</head>
+
+<body>
+
+
+<div class="login-container">
+    <div class="login-card">
+
+        <h1>Login Eskrim</h1>
+
+        <p class="subtitle">
+            Masuk sebagai admin atau user
+        </p>
+
+        <form class="login-form" method="POST" action="login.php">
+
+            <input 
+                type="text" 
+                name="username"
+                placeholder="Username"
+                autocomplete="username"
+                required
+            >
+
+            <input 
+                type="password" 
+                name="password"
+                placeholder="Password"
+                autocomplete="current-password"
+                required
+            >
+
+            <button type="submit">
+                Masuk sekarang
+            </button>
+
+        </form>
+
+        <div class="register-text">
+            <span>Belum Punya akun?</span>
+            <a href="register.php">Daftar Admin</a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
